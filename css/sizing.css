@@ -1,0 +1,31 @@
+
+.visible-mobile {
+    display: inline-block !important;
+}
+
+.hidden-mobile {
+    display: none !important;
+}
+
+.small-image{
+    transform: rotate(90deg) translateX(200px);
+    max-width: 550px;
+    min-width: 550px;
+    height: auto;
+}
+
+@media (min-width:600px) {
+    .large-image{
+        max-width: 180px;
+        min-width: 180px;
+        height: auto;
+    }
+    
+    .visible-mobile {
+        display: none !important;
+      }
+
+    .hidden-mobile {
+        display: inline-block !important;
+    }
+}
