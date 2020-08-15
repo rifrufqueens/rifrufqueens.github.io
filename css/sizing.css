@@ -1,31 +1,11 @@
-.visible-mobile {
-    display: inline-block !important;
+.wrapper{
+    overflow-x:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hidden-mobile {
-    display: none !important;
-}
-
-.small-image{
-    transform: rotate(90deg) translateX(200px);
-    max-width: 550px;
-    min-width: 550px;
-    height: auto;
-    overflow-x: auto;
-}
-
-@media (min-width:600px) {
-    .large-image{
-        max-width: 268px;
-        min-width: 268px;
-        height: auto;
-    }
-    
-    .visible-mobile {
-        display: none !important;
-      }
-
-    .hidden-mobile {
-        display: inline-block !important;
-    }
+.large-image{
+    max-width: 2.75in;
+    min-width: 2.75in;
 }
