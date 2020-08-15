@@ -8,4 +8,5 @@
 .large-image{
     max-width: 2.75in;
     min-width: 2.75in;
+    object-fit: none;
 }
