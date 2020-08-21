@@ -1,5 +1,5 @@
-$("#phones").change(function () {
-  var firstDropVal = $('#phones').val();
+$("#devices").change(function () {
+  var firstDropVal = $('#devices').val();
   console.log(firstDropVal);
 
   $("#sizing-image").removeClass();

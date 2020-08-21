@@ -18,63 +18,86 @@
   display: none;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  .iphone5 {
-    min-width: calc(var(--inch) * 2.75);
-    max-width: calc(var(--inch) * 2.75);
-  }
-  .iphone5 :root {
-    --inch: 116px;
-  }
-}
-
 @media (device-width: 375px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
-  .iphone8 {
-    min-width: calc(var(--inch) * 2.75);
-    max-width: calc(var(--inch) * 2.75);
-  }
-  .iphone8 :root {
-    --inch: 430px;
+  .iphone6 {
+    min-width: calc(430px * 2.75);
+    max-width: calc(430px * 2.75);
   }
 }
 
 @media (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
-  .iphone8 {
-    min-width: calc(var(--inch) * 2.75);
-    max-width: calc(var(--inch) * 2.75);
-  }
-  .iphone8 :root {
-    --inch: 242px;
+  .iphone6 {
+    min-width: calc(242px * 2.75);
+    max-width: calc(242px * 2.75);
   }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .iphonex {
-    min-width: calc(var(--inch) * 2.75);
-    max-width: calc(var(--inch) * 2.75);
-  }
-  .iphonex :root {
-    --inch: 200px;
+    min-width: calc(200px * 2.75);
+    max-width: calc(200px * 2.75);
   }
 }
 
 @media (device-width: 414px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   .iphone11promax {
-    min-width: calc(var(--inch) * 2.75);
-    max-width: calc(var(--inch) * 2.75);
-  }
-  .iphone11promax :root {
-    --inch: 370px;
+    min-width: calc(370px * 2.75);
+    max-width: calc(370px * 2.75);
   }
 }
 
 @media (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   .iphone11promax {
-    min-width: calc(var(--inch) * 2.75);
-    max-width: calc(var(--inch) * 2.75);
+    min-width: calc(189px * 2.75);
+    max-width: calc(189px * 2.75);
   }
-  .iphone11promax :root {
-    --inch: 189px;
+}
+
+.desktop {
+  /****************/
+  /* DESKTOP ZONE */
+  /****************/
+  /* 13.3-inch MBP (2012) (1280 x 800). Do we need to specify device-height as well? */
+  /* 17" Retina MBP/Chrome values */
+  /* Windows 10 @100% (1366 x 768) landscape. */
+  /* Windows 10 Pro @100% (1920 x 1080px) landscape. */
+  /* Windows 10 Pro @125% (1920 x 1080px) landscape. */
+  /* 27" EIZO monitor (2560 x 1440)*/
+}
+
+@media (resolution: 96dpi) and (device-width: 1280px), (-webkit-device-pixel-ratio: 1) and (device-width: 1280px) {
+  .desktop :root {
+    --inch: 116px;
+  }
+}
+
+@media (resolution: 192dpi) and (device-width: 1680px), (-webkit-device-pixel-ratio: 2) and (device-width: 1680px) {
+  .desktop :root {
+    --inch: 130px;
+  }
+}
+
+@media (resolution: 96dpi) and (device-width: 1366px), (-webkit-device-pixel-ratio: 1) and (device-width: 1366px) {
+  .desktop :root {
+    --inch: 114px;
+  }
+}
+
+@media (resolution: 96dpi) and (device-width: 1920px), (-webkit-device-pixel-ratio: 1) and (device-width: 1920px) {
+  .desktop :root {
+    --inch: 144px;
+  }
+}
+
+@media (resolution: 120dpi) and (device-width: 1536px), (-webkit-device-pixel-ratio: 1) and (device-width: 1536px) {
+  .desktop :root {
+    --inch: 115px;
+  }
+}
+
+@media (resolution: 115dpi) and (device-width: 2560px), (-webkit-device-pixel-ratio: 1) and (device-width: 2560px) {
+  .desktop :root {
+    --inch: 92px;
   }
 }
 /*# sourceMappingURL=sizing.css.map */
