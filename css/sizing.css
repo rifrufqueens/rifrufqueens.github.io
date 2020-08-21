@@ -1,12 +1,80 @@
-.wrapper{
-    overflow-x:auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.large-image{
-    max-width: 2.75in;
-    min-width: 2.75in;
-    object-fit: none;
+.default {
+  display: none;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .iphone5 {
+    min-width: calc(var(--inch) * 2.75);
+    max-width: calc(var(--inch) * 2.75);
+  }
+  .iphone5 :root {
+    --inch: 116px;
+  }
+}
+
+@media (device-width: 375px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  .iphone8 {
+    min-width: calc(var(--inch) * 2.75);
+    max-width: calc(var(--inch) * 2.75);
+  }
+  .iphone8 :root {
+    --inch: 430px;
+  }
+}
+
+@media (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  .iphone8 {
+    min-width: calc(var(--inch) * 2.75);
+    max-width: calc(var(--inch) * 2.75);
+  }
+  .iphone8 :root {
+    --inch: 242px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .iphonex {
+    min-width: calc(var(--inch) * 2.75);
+    max-width: calc(var(--inch) * 2.75);
+  }
+  .iphonex :root {
+    --inch: 200px;
+  }
+}
+
+@media (device-width: 414px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .iphone11promax {
+    min-width: calc(var(--inch) * 2.75);
+    max-width: calc(var(--inch) * 2.75);
+  }
+  .iphone11promax :root {
+    --inch: 370px;
+  }
+}
+
+@media (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .iphone11promax {
+    min-width: calc(var(--inch) * 2.75);
+    max-width: calc(var(--inch) * 2.75);
+  }
+  .iphone11promax :root {
+    --inch: 189px;
+  }
+}
+/*# sourceMappingURL=sizing.css.map */

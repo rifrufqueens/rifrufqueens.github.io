@@ -10,8 +10,24 @@
 
 <body>
   <div class="wrapper">
-    <img src="images/sizing_vertical.png" alt="sizing_image" class="large-image">
+    <label for="phones">Choose a Phone:</label>
+    <select name="phones" id="phones">
+      <option value="iphone5">iPhone 5</option>
+      <option value="iphone8">iPhone 6, 6S, 7 and 8</option>
+      <option value="iphonex">iPhone X</option>
+      <option value="iphone11promax">iPhone 11 Pro Max</option>
+
+    </select>
+
+
+  <img src="images/sizing_vertical.png" alt="sizing_image" id ="sizing-image" class="default">
   </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="js/sizing.js"></script>
 
 </body>
 </html>

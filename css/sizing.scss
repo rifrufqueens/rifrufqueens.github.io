@@ -1,0 +1,68 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.default{
+    display: none;
+}
+
+
+.iphone5{
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+        :root {
+            --inch: 116px;
+        }
+        min-width: calc(var(--inch) * 2.75);
+        max-width: calc(var(--inch) * 2.75);
+    }
+}
+
+.iphone8{
+    @media (device-width: 375px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+        :root {
+          --inch: 430px;
+        }
+        min-width: calc(var(--inch) * 2.75);
+        max-width: calc(var(--inch) * 2.75);
+      }
+      
+      @media (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+        :root {
+          --inch: 242px;
+        }
+        min-width: calc(var(--inch) * 2.75);
+        max-width: calc(var(--inch) * 2.75);
+      }
+}
+
+
+.iphonex{
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+        :root {
+            --inch: 200px;
+        }
+        min-width: calc(var(--inch) * 2.75);
+        max-width: calc(var(--inch) * 2.75);
+    }
+}
+
+.iphone11promax{
+    @media (device-width: 414px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+        :root {
+          --inch: 370px;
+        }
+        min-width: calc(var(--inch) * 2.75);
+        max-width: calc(var(--inch) * 2.75);
+      }
+      
+      @media (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+        :root {
+          --inch: 189px;
+        }
+        min-width: calc(var(--inch) * 2.75);
+        max-width: calc(var(--inch) * 2.75);
+      }
+}
