@@ -18,31 +18,24 @@
   display: none;
 }
 
-@media (device-width: 375px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
-  .iphone6 {
-    min-width: calc(430px * 2.75);
-    max-width: calc(430px * 2.75);
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .iphone8 {
+    min-width: calc(99px * 2.75);
+    max-width: calc(99px * 2.75);
   }
 }
 
-@media (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
-  .iphone6 {
-    min-width: calc(242px * 2.75);
-    max-width: calc(242px * 2.75);
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .iphone8plus {
+    min-width: calc(156px * 2.75);
+    max-width: calc(156px * 2.75);
   }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .iphonex {
-    min-width: calc(200px * 2.75);
-    max-width: calc(200px * 2.75);
-  }
-}
-
-@media (device-width: 414px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-  .iphone11promax {
-    min-width: calc(370px * 2.75);
-    max-width: calc(370px * 2.75);
+    min-width: calc(99px * 2.75);
+    max-width: calc(99px * 2.75);
   }
 }
 
@@ -50,6 +43,48 @@
   .iphone11promax {
     min-width: calc(189px * 2.75);
     max-width: calc(189px * 2.75);
+  }
+}
+
+@media (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .iphone11promax {
+    min-width: calc(189px * 2.75);
+    max-width: calc(189px * 2.75);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ipad3 {
+    min-width: calc(130px * 2.75);
+    max-width: calc(130px * 2.75);
+  }
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ipadPro10 {
+    min-width: calc(130px * 2.75);
+    max-width: calc(130px * 2.75);
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ipadPro12 {
+    min-width: calc(130px * 2.75);
+    max-width: calc(130px * 2.75);
+  }
+}
+
+@media only screen and (min-width: 740px) and (orientation: landscape) {
+  .samsungs8 {
+    min-width: calc(100px * 2.75);
+    max-width: calc(100px * 2.75);
+  }
+}
+
+@media only screen and (min-width: 760px) and (orientation: landscape) {
+  .samsungs10 {
+    min-width: calc(100px * 2.75);
+    max-width: calc(100px * 2.75);
   }
 }
 
@@ -66,38 +101,44 @@
 }
 
 @media (resolution: 96dpi) and (device-width: 1280px), (-webkit-device-pixel-ratio: 1) and (device-width: 1280px) {
-  .desktop :root {
-    --inch: 116px;
+  .desktop {
+    min-width: calc(116px * 2.75);
+    max-width: calc(116px * 2.75);
   }
 }
 
 @media (resolution: 192dpi) and (device-width: 1680px), (-webkit-device-pixel-ratio: 2) and (device-width: 1680px) {
-  .desktop :root {
-    --inch: 130px;
+  .desktop {
+    min-width: calc(130px * 2.75);
+    max-width: calc(130px * 2.75);
   }
 }
 
 @media (resolution: 96dpi) and (device-width: 1366px), (-webkit-device-pixel-ratio: 1) and (device-width: 1366px) {
-  .desktop :root {
-    --inch: 114px;
+  .desktop {
+    min-width: calc(114px * 2.75);
+    max-width: calc(114px * 2.75);
   }
 }
 
 @media (resolution: 96dpi) and (device-width: 1920px), (-webkit-device-pixel-ratio: 1) and (device-width: 1920px) {
-  .desktop :root {
-    --inch: 144px;
+  .desktop {
+    min-width: calc(144px * 2.75);
+    max-width: calc(144px * 2.75);
   }
 }
 
 @media (resolution: 120dpi) and (device-width: 1536px), (-webkit-device-pixel-ratio: 1) and (device-width: 1536px) {
-  .desktop :root {
-    --inch: 115px;
+  .desktop {
+    min-width: calc(115px * 2.75);
+    max-width: calc(115px * 2.75);
   }
 }
 
 @media (resolution: 115dpi) and (device-width: 2560px), (-webkit-device-pixel-ratio: 1) and (device-width: 2560px) {
-  .desktop :root {
-    --inch: 92px;
+  .desktop {
+    min-width: calc(92px * 2.75);
+    max-width: calc(92px * 2.75);
   }
 }
 /*# sourceMappingURL=sizing.css.map */
