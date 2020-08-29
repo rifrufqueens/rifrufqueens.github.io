@@ -26,10 +26,20 @@
 }
 
 
+// .iphonex{
+//     @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+
+//         $inch: 200px;
+//         min-width: calc(#{$inch} * 2.75);
+//         max-width: calc(#{$inch} * 2.75);
+//     }
+
+// }
+
 .iphonex{
     @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
 
-        $inch: 200px;
+        $inch: 100px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
     }
