@@ -34,15 +34,8 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .iphonex {
-    min-width: calc(200px * 2.75);
-    max-width: calc(200px * 2.75);
-  }
-}
-
-@media (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-  .iphone11promax {
-    min-width: calc(189px * 2.75);
-    max-width: calc(189px * 2.75);
+    min-width: calc(300px * 2.75);
+    max-width: calc(300px * 2.75);
   }
 }
 
