@@ -27,8 +27,8 @@
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .iphone8plus {
-    min-width: calc(156px * 2.75);
-    max-width: calc(156px * 2.75);
+    min-width: calc(226px * 2.75);
+    max-width: calc(226px * 2.75);
   }
 }
 
