@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow:auto
 }
 
 .default{
@@ -21,7 +22,7 @@
 
 .iphone8plus{
     @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-        $inch: 226px;
+        $inch: 250px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
     }
@@ -42,7 +43,7 @@
 .iphone11promax{
 
       @media (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-        $inch: 189px;
+        $inch: 170px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
       }
