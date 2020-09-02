@@ -12,6 +12,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: auto;
 }
 
 .default {
@@ -26,9 +27,9 @@
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  .iphone8plus {
-    min-width: calc(226px * 2.75);
-    max-width: calc(226px * 2.75);
+  .iphone7plus {
+    min-width: calc(250px * 2.75);
+    max-width: calc(250px * 2.75);
   }
 }
 
@@ -41,8 +42,8 @@
 
 @media (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   .iphone11promax {
-    min-width: calc(189px * 2.75);
-    max-width: calc(189px * 2.75);
+    min-width: calc(170px * 2.75);
+    max-width: calc(170px * 2.75);
   }
 }
 
