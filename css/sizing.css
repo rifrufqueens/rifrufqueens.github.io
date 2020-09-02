@@ -77,8 +77,8 @@
 
 @media only screen and (min-width: 760px) and (orientation: landscape) {
   .samsungs10 {
-    min-width: calc(100px * 2.75);
-    max-width: calc(100px * 2.75);
+    min-width: calc(120px * 2.75);
+    max-width: calc(120px * 2.75);
   }
 }
 
