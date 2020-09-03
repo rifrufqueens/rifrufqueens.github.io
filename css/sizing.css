@@ -40,13 +40,6 @@
   }
 }
 
-@media (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-  .iphone11promax {
-    min-width: calc(170px * 2.75);
-    max-width: calc(170px * 2.75);
-  }
-}
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   .ipad3 {
     min-width: calc(130px * 2.75);
@@ -70,8 +63,8 @@
 
 @media only screen and (min-width: 740px) and (orientation: landscape) {
   .samsungs8 {
-    min-width: calc(293px * 2.75);
-    max-width: calc(293px * 2.75);
+    min-width: calc(303px * 2.75);
+    max-width: calc(303px * 2.75);
   }
 }
 
@@ -79,6 +72,13 @@
   .samsungs10 {
     min-width: calc(120px * 2.75);
     max-width: calc(120px * 2.75);
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .pixel2 {
+    min-width: calc(310px * 2.75);
+    max-width: calc(310px * 2.75);
   }
 }
 
