@@ -72,7 +72,7 @@
 .samsungs8{
 
     @media only screen and (min-width: 740px) and (orientation: landscape) { 
-        $inch: 303px;
+        $inch: 305px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
     }
