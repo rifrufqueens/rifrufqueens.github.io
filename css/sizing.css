@@ -20,16 +20,23 @@
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .iphone6 {
+    min-width: calc(330px * 2.75);
+    max-width: calc(330px * 2.75);
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .iphone8 {
-    min-width: calc(380px * 2.75);
-    max-width: calc(380px * 2.75);
+    min-width: calc(365px * 2.75);
+    max-width: calc(365px * 2.75);
   }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .iphone7plus {
-    min-width: calc(250px * 2.75);
-    max-width: calc(250px * 2.75);
+    min-width: calc(255px * 2.75);
+    max-width: calc(255px * 2.75);
   }
 }
 
