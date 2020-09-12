@@ -55,16 +55,16 @@
 }
 
 @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
-  .ipadPro10 {
-    min-width: calc(130px * 2.75);
-    max-width: calc(130px * 2.75);
+  .ipadair {
+    min-width: calc(70px * 2.75);
+    max-width: calc(70px * 2.75);
   }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
   .ipadPro12 {
-    min-width: calc(130px * 2.75);
-    max-width: calc(130px * 2.75);
+    min-width: calc(70px * 2.75);
+    max-width: calc(70px * 2.75);
   }
 }
 
