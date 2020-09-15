@@ -22,7 +22,7 @@
 
 .iphone8{
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-        $inch: 365px;
+        $inch: 358px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
     }
@@ -31,7 +31,7 @@
 
 .iphone7plus{
     @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-        $inch: 255px;
+        $inch: 285px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
     }
@@ -61,7 +61,7 @@
 .ipadair{
 
     @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
-        $inch: 70px;
+        $inch: 35px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
     }
@@ -100,55 +100,6 @@
     @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
 
         $inch: 310px;
-        min-width: calc(#{$inch} * 2.75);
-        max-width: calc(#{$inch} * 2.75);
-    }
-
-}
-
-.desktop{
-/****************/
-/* DESKTOP ZONE */
-/****************/
-
-/* 13.3-inch MBP (2012) (1280 x 800). Do we need to specify device-height as well? */
-    @media (resolution: 96dpi) and (device-width: 1280px), (-webkit-device-pixel-ratio: 1) and (device-width: 1280px) {
-        $inch: 116px;
-        min-width: calc(#{$inch} * 2.75);
-        max-width: calc(#{$inch} * 2.75);
-    }
-    
-    /* 17" Retina MBP/Chrome values */
-    @media (resolution: 192dpi) and (device-width: 1680px), (-webkit-device-pixel-ratio: 2) and (device-width: 1680px) {
-        $inch: 130px;
-        min-width: calc(#{$inch} * 2.75);
-        max-width: calc(#{$inch} * 2.75);
-    }
-    
-    /* Windows 10 @100% (1366 x 768) landscape. */
-    @media (resolution: 96dpi) and (device-width: 1366px), (-webkit-device-pixel-ratio: 1) and (device-width: 1366px) {
-        $inch: 114px;
-        min-width: calc(#{$inch} * 2.75);
-        max-width: calc(#{$inch} * 2.75);
-    }
-    
-    /* Windows 10 Pro @100% (1920 x 1080px) landscape. */
-    @media (resolution: 96dpi) and (device-width: 1920px), (-webkit-device-pixel-ratio: 1) and (device-width: 1920px) {
-        $inch: 144px;
-        min-width: calc(#{$inch} * 2.75);
-        max-width: calc(#{$inch} * 2.75);
-    }
-    
-    /* Windows 10 Pro @125% (1920 x 1080px) landscape. */
-    @media (resolution: 120dpi) and (device-width: 1536px), (-webkit-device-pixel-ratio: 1) and (device-width: 1536px) {
-        $inch: 115px;
-        min-width: calc(#{$inch} * 2.75);
-        max-width: calc(#{$inch} * 2.75);
-    }
-    
-    /* 27" EIZO monitor (2560 x 1440)*/
-    @media (resolution: 115dpi) and (device-width: 2560px), (-webkit-device-pixel-ratio: 1) and (device-width: 2560px) {
-        $inch: 92px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
     }

@@ -28,15 +28,15 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .iphone8 {
-    min-width: calc(365px * 2.75);
-    max-width: calc(365px * 2.75);
+    min-width: calc(358px * 2.75);
+    max-width: calc(358px * 2.75);
   }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .iphone7plus {
-    min-width: calc(255px * 2.75);
-    max-width: calc(255px * 2.75);
+    min-width: calc(285px * 2.75);
+    max-width: calc(285px * 2.75);
   }
 }
 
@@ -56,8 +56,8 @@
 
 @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
   .ipadair {
-    min-width: calc(70px * 2.75);
-    max-width: calc(70px * 2.75);
+    min-width: calc(35px * 2.75);
+    max-width: calc(35px * 2.75);
   }
 }
 
@@ -86,60 +86,6 @@
   .pixel2 {
     min-width: calc(310px * 2.75);
     max-width: calc(310px * 2.75);
-  }
-}
-
-.desktop {
-  /****************/
-  /* DESKTOP ZONE */
-  /****************/
-  /* 13.3-inch MBP (2012) (1280 x 800). Do we need to specify device-height as well? */
-  /* 17" Retina MBP/Chrome values */
-  /* Windows 10 @100% (1366 x 768) landscape. */
-  /* Windows 10 Pro @100% (1920 x 1080px) landscape. */
-  /* Windows 10 Pro @125% (1920 x 1080px) landscape. */
-  /* 27" EIZO monitor (2560 x 1440)*/
-}
-
-@media (resolution: 96dpi) and (device-width: 1280px), (-webkit-device-pixel-ratio: 1) and (device-width: 1280px) {
-  .desktop {
-    min-width: calc(116px * 2.75);
-    max-width: calc(116px * 2.75);
-  }
-}
-
-@media (resolution: 192dpi) and (device-width: 1680px), (-webkit-device-pixel-ratio: 2) and (device-width: 1680px) {
-  .desktop {
-    min-width: calc(130px * 2.75);
-    max-width: calc(130px * 2.75);
-  }
-}
-
-@media (resolution: 96dpi) and (device-width: 1366px), (-webkit-device-pixel-ratio: 1) and (device-width: 1366px) {
-  .desktop {
-    min-width: calc(114px * 2.75);
-    max-width: calc(114px * 2.75);
-  }
-}
-
-@media (resolution: 96dpi) and (device-width: 1920px), (-webkit-device-pixel-ratio: 1) and (device-width: 1920px) {
-  .desktop {
-    min-width: calc(144px * 2.75);
-    max-width: calc(144px * 2.75);
-  }
-}
-
-@media (resolution: 120dpi) and (device-width: 1536px), (-webkit-device-pixel-ratio: 1) and (device-width: 1536px) {
-  .desktop {
-    min-width: calc(115px * 2.75);
-    max-width: calc(115px * 2.75);
-  }
-}
-
-@media (resolution: 115dpi) and (device-width: 2560px), (-webkit-device-pixel-ratio: 1) and (device-width: 2560px) {
-  .desktop {
-    min-width: calc(92px * 2.75);
-    max-width: calc(92px * 2.75);
   }
 }
 /*# sourceMappingURL=sizing.css.map */
