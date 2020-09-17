@@ -35,8 +35,8 @@
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .iphone7plus {
-    min-width: calc(285px * 2.75);
-    max-width: calc(285px * 2.75);
+    min-width: calc(290px * 2.75);
+    max-width: calc(290px * 2.75);
   }
 }
 
@@ -55,9 +55,9 @@
 }
 
 @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
-  .ipadair {
-    min-width: calc(35px * 2.75);
-    max-width: calc(35px * 2.75);
+  .ipadair10 {
+    min-width: calc(70px * 2.75);
+    max-width: calc(70px * 2.75);
   }
 }
 
