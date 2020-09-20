@@ -35,8 +35,8 @@
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .iphone7plus {
-    min-width: calc(310px * 2.75);
-    max-width: calc(310px * 2.75);
+    min-width: calc(315px * 2.75);
+    max-width: calc(315px * 2.75);
   }
 }
 
@@ -49,8 +49,8 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   .ipad3 {
-    min-width: calc(380px * 2.75);
-    max-width: calc(380px * 2.75);
+    min-width: calc(245px * 2.75);
+    max-width: calc(245px * 2.75);
   }
 }
 
