@@ -52,7 +52,7 @@
 .ipad3{
 
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-        $inch: 252px;
+        $inch: 258px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
     }
