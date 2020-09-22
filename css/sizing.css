@@ -28,8 +28,8 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .iphone8 {
-    min-width: calc(342px * 2.75);
-    max-width: calc(342px * 2.75);
+    min-width: calc(341px * 2.75);
+    max-width: calc(341px * 2.75);
   }
 }
 
