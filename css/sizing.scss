@@ -68,6 +68,15 @@
     
 }
 
+.ipadPro11{
+
+    @media only screen and (min-device-width: 834px) and (max-device-width: 1194px) and (-webkit-min-device-pixel-ratio: 2) {
+        $inch: 70px;
+        min-width: calc(#{$inch} * 2.75);
+        max-width: calc(#{$inch} * 2.75);
+    }
+}
+
 .ipadPro12{
 
     @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
