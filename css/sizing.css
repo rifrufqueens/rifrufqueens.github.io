@@ -63,8 +63,8 @@
 
 @media only screen and (min-device-width: 834px) and (max-device-width: 1194px) and (-webkit-min-device-pixel-ratio: 2) {
   .ipadPro11 {
-    min-width: calc(310px * 2.75);
-    max-width: calc(310px * 2.75);
+    min-width: calc(380px * 2.75);
+    max-width: calc(380px * 2.75);
   }
 }
 
