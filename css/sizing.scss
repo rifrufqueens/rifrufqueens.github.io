@@ -105,10 +105,10 @@
     }
 }
 
-.pixel2{
-    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+.pixel3{
+    @media only screen and (min-device-width: 393px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2.75) {
 
-        $inch: 310px;
+        $inch: 250px;
         min-width: calc(#{$inch} * 2.75);
         max-width: calc(#{$inch} * 2.75);
     }
