@@ -78,8 +78,8 @@
 
 @media only screen and (min-device-width: 393px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2.75) {
   .pixel3 {
-    min-width: calc(250px * 2.75);
-    max-width: calc(250px * 2.75);
+    min-width: calc(150px * 2.75);
+    max-width: calc(150px * 2.75);
   }
 }
 /*# sourceMappingURL=sizing.css.map */
