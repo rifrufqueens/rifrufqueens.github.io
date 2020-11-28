@@ -78,8 +78,8 @@
 
 @media only screen and (min-width: 393px) and (max-width: 767px) {
   .pixel3 {
-    min-width: calc(260px * 2.75);
-    max-width: calc(260px * 2.75);
+    min-width: calc(310px * 2.75);
+    max-width: calc(310px * 2.75);
   }
 }
 /*# sourceMappingURL=sizing.css.map */
