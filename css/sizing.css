@@ -34,13 +34,6 @@
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-  .ipad3 {
-    min-width: calc(275px * 2.75);
-    max-width: calc(275px * 2.75);
-  }
-}
-
 @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
   .ipadair10 {
     min-width: calc(70px * 2.75);
@@ -66,13 +59,6 @@
   .samsungs8 {
     min-width: calc(305px * 2.75);
     max-width: calc(305px * 2.75);
-  }
-}
-
-@media only screen and (min-width: 760px) and (orientation: landscape) {
-  .samsungs10 {
-    min-width: calc(120px * 2.75);
-    max-width: calc(120px * 2.75);
   }
 }
 
