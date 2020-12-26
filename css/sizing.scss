@@ -88,9 +88,9 @@
     }
 }
 
-.pixel2{
-    @media only screen and (min-width: 412px) and (max-width: 767px) {
-        $inch: 250px;
+.pixel2xl{
+    @media only screen and (min-width: 412px) and (max-width: 823px) {
+        $inch: 275px;
         min-width: calc(#{$inch} * 2.25);
         max-width: calc(#{$inch} * 2.25);
     }

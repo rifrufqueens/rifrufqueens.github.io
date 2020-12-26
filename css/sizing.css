@@ -62,10 +62,10 @@
   }
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .pixel2 {
-    min-width: calc(250px * 2.25);
-    max-width: calc(250px * 2.25);
+@media only screen and (min-width: 412px) and (max-width: 823px) {
+  .pixel2xl {
+    min-width: calc(275px * 2.25);
+    max-width: calc(275px * 2.25);
   }
 }
 
