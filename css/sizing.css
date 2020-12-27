@@ -64,8 +64,8 @@
 
 @media only screen and (min-width: 412px) and (max-width: 823px) {
   .pixel2xl {
-    min-width: calc(375px * 2.25);
-    max-width: calc(375px * 2.25);
+    min-width: calc(385px * 2.25);
+    max-width: calc(385px * 2.25);
   }
 }
 
